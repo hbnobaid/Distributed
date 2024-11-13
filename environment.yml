@@ -1,0 +1,12 @@
+name: mpi
+channels:
+  - defaults
+dependencies:
+  - python
+  - scikit-learn
+  - pip
+  - numpy
+  - plotly
+  - pip:
+    - mpi4py
+  
